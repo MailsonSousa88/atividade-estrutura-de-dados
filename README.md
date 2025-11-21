@@ -28,4 +28,3 @@ Aqui estão as principais operações, explicadas de forma simples:
 
 ---
 
-Se quiser, posso deixar ainda mais visual, adicionar exemplos ou até criar diagramas! 😊

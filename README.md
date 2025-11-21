@@ -1,7 +1,9 @@
 # 📚 Estrutura de Dados
 
-**🏫 Instituição:** IFPI - Campus Piripiri
-**👨‍🏫 Professor:** Jonathas Jivago
+**🏫 Instituição:** 
+IFPI - Campus Piripiri
+**👨‍🏫 Professor:** 
+Jonathas Jivago
 **🧑‍🎓 Alunos:** 
 - Francisco Mailso da Silva Sousa 
 - "Escreva seu nome completo aqui"

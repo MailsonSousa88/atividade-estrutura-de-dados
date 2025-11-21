@@ -2,7 +2,9 @@
 
 **🏫 Instituição:** IFPI - Campus Piripiri
 **👨‍🏫 Professor:** Jonathas Jivago
-**🧑‍🎓 Alunos:** Francisco Mailso da Silva Sousa e "Escreva seu nome completo aqui"
+**🧑‍🎓 Alunos:** 
+- Francisco Mailso da Silva Sousa 
+- "Escreva seu nome completo aqui"
 
 ---
 

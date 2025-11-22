@@ -18,8 +18,14 @@ class FilaCircular {
     }
 
     //Metodo para remover elementos da lista(FILA)
-    removerElemento(): void{
-        this.elementos.pop();
+    removerElemento(): number | null{
+        if(this.verificarStatusFilaVazia()){
+            console.log("Não há números para remover...");
+            return null;
+        }else{
+            let elementoRemovido: number = this.elementos.shift()!;
+            return elementoRemovido;
+        }
     }
 
 
@@ -28,8 +34,15 @@ class FilaCircular {
         
     }
 
-    exibirPrimeiroElemento(): void{
-        
+    exibirPrimeiroElemento(): number | null{
+        if(this.elementos.length == 0){
+            this.verificarStatusFilaVazia();
+            return null;
+        }else{
+            let primeiroElememto: number = this.elementos[0];
+            console.log(`O primeiro elementos da fila: ${primeiroElememto}`);
+            return primeiroElememto;
+        }
     }
 
     exibirElementosDaFila(): void{
@@ -38,6 +51,11 @@ class FilaCircular {
 
     exibirCapacidadeMaxima(){
 
+    }
+
+    exibirCapacidadeDisponivel(){
+        let capacidadeDisponivel : number =this.capacidadeDaLista - this.elementos.length;
+        console.log(`A capacidade disponivel na lista e de: ${capacidadeDisponivel}`);
     }
 
 
@@ -54,12 +72,16 @@ class FilaCircular {
 
     verificarStatusFilaCheia(): boolean{
         if(this.elementos.length == this.capacidadeDaLista){
-            console.log(`A lista está cheia`);
+            console.log(`A fila está cheia`);
             return true
         }else{
+            console.log(`A fila não está cheia...`);
             return false;
         }
     }
 }
 
+//Inicialização da Fila Circular
 let lista : FilaCircular = new FilaCircular(5);
+
+//Para checar os metodos utilize lista.metodoDesejado();

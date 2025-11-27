@@ -31,7 +31,8 @@ class FilaCircular {
 
     //Metodos para exibir os elementos da FILA
     exibirQuantidadeElementos(): void{
-        
+        let quantidadeElementos: number = this.elementos.length;
+        console.log(`A quantidade de elementos na fila é de: ${quantidadeElementos}`);    
     }
 
     exibirPrimeiroElemento(): number | null{
@@ -46,11 +47,15 @@ class FilaCircular {
     }
 
     exibirElementosDaFila(): void{
-        
-    }
+        if (this.verificarStatusFilaVazia()) {
+            return;
+        }
+        console.log(`Elementos da Fila: ${this.elementos.join(", ")}`);
+ }
 
     exibirCapacidadeMaxima(){
-
+        console.log(`A capacidade maxima da fila e de: ${this.capacidadeDaLista}`);
+    
     }
 
     exibirCapacidadeDisponivel(){

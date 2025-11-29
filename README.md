@@ -6,7 +6,7 @@ IFPI - Campus Piripiri
 Jonathas Jivago
 **🧑‍🎓 Alunos:** 
 - Francisco Mailso da Silva Sousa 
-- "Escreva seu nome completo aqui"
+- Deric Rodrigues de Sousa
 
 ---
 

@@ -1,3 +1,4 @@
+
 class FilaCircular {
 
     private elementos : Array<number>;
@@ -44,7 +45,7 @@ class FilaCircular {
 
     //Metodos para exibir os elementos da FILA
     exibirQuantidadeElementos(): void{
-        //Parte do Deric
+        console.log(`A quantidade de elementos na fila é: ${this.tamanhoAtual}`);
     }
 
     exibirPrimeiroElemento(): number | null{
@@ -75,7 +76,8 @@ class FilaCircular {
     }
 
     exibirCapacidadeMaxima(){
-        //Parte do Deric
+        console.log(`A capacidade maxima da lista e de: ${this.capacidadeDaLista}`);
+        
     }
 
     exibirCapacidadeDisponivel(){

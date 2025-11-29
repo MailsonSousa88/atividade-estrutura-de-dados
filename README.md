@@ -5,7 +5,7 @@ IFPI - Campus Piripiri
 **👨‍🏫 Professor:** 
 Jonathas Jivago
 **🧑‍🎓 Alunos:** 
-- Francisco Mailso da Silva Sousa 
+- Francisco Mailson da Silva Sousa 
 - Deric Rodrigues de Sousa
 
 ---
